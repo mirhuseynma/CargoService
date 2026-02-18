@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\icargoservices\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\icargoservices\\cargoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\icargoservices\\icargointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\icargoservices\\icargointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\classes\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\classes\\cargoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\models\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\models\\cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\classes\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\classes\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|c:\\users\\mirhuseynma\\desktop\\cargoservice\\cargoservice.cargocompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0517EC4A-BED3-4221-BA77-49DC6768F678}|CargoService.CargoCompany\\CargoService.CargoCompany.csproj|solutionrelative:cargoservice.cargocompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CargoService.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\ICargoServices\\CargoService.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\ICargoServices\\CargoService.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\ICargoServices\\CargoService.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\ICargoServices\\CargoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:47:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\Customer.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Classes\\Customer.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\Customer.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Classes\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:41:36.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICargoInterface.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\ICargoServices\\ICargoInterface.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\ICargoServices\\ICargoInterface.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\ICargoServices\\ICargoInterface.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\ICargoServices\\ICargoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:34:58.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:16:42.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CargoOrder.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\CargoOrder.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Classes\\CargoOrder.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\CargoOrder.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Classes\\CargoOrder.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:05:18.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Courier.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\Courier.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Classes\\Courier.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Classes\\Courier.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Classes\\Courier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:05:06.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cargos.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Models\\Cargos.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Models\\Cargos.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Models\\Cargos.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Models\\Cargos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:04:20.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Program.cs",
+              "RelativeDocumentMoniker": "CargoService.CargoCompany\\Program.cs",
+              "ToolTip": "C:\\Users\\mirhuseynma\\Desktop\\CargoService\\CargoService.CargoCompany\\Program.cs",
+              "RelativeToolTip": "CargoService.CargoCompany\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T13:03:40.899Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

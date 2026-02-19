@@ -1,0 +1,15 @@
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\bin\Debug\net8.0\CargoService.CargoCompany.exe
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\bin\Debug\net8.0\CargoService.CargoCompany.deps.json
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\bin\Debug\net8.0\CargoService.CargoCompany.runtimeconfig.json
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\bin\Debug\net8.0\CargoService.CargoCompany.dll
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\bin\Debug\net8.0\CargoService.CargoCompany.pdb
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.AssemblyInfoInputs.cache
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.AssemblyInfo.cs
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.csproj.CoreCompileInputs.cache
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.sourcelink.json
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.dll
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\refint\CargoService.CargoCompany.dll
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.pdb
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\CargoService.CargoCompany.genruntimeconfig.cache
+C:\Users\abdul\OneDrive\Desktop\CargoService\CargoService.CargoCompany\obj\Debug\net8.0\ref\CargoService.CargoCompany.dll

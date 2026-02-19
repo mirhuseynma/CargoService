@@ -11,5 +11,12 @@ namespace CargoService.CargoCompany.Classes
         public Customer(string name, string country) : base(name, country)
         {
         }
+
+        public override string ToString()
+        {
+            return $"Id: {Id}, Musteri: {Name}, Olke: {Country}";
+        }
+        
+        
     }
 }

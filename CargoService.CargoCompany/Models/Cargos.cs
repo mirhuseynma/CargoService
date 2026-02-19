@@ -19,12 +19,18 @@ namespace CargoService.CargoCompany.Models
         public string Name { get; set; }
         public string Country { get; set; }
 
-        protected Cargos(string name, string country)
+        public Cargos()
+        {
+            
+        }
+        public Cargos(string name, string country)
         {
             ID++;
             Id = ID;
             Name = name;
             Country = country;
         }
+
+        
     }
 }

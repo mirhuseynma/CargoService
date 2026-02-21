@@ -8,22 +8,29 @@ using System.Threading.Tasks;
 
 namespace CargoService.CargoCompany.Classes
 {
-    public class CargoOrder : Models.Cargos
+    public class CargoOrder
     {
-
+        static int ID;
+        public int Id { get;}
+        public string Name { get; set; }
+        public string Country { get; set; }
         public int CustomerId { get; set; }
         public int CourierId { get; set; }
         public double TotalPrice { get; set; }
-        public OrderStatus Status { get; set; }
+        public OrderStatus Status { get; }
         public DateTime CreatedAt { get { return DateTime.Now; } }
 
 
-        public CargoOrder(string name, string country, int customerId, int courierId, double totalPrice, OrderStatus status) : base(name, country)
+        public CargoOrder(string name, string country, int customerId, int courierId, double totalPrice)
         {
+            ID++;
+            Id = ID;
+            Name = name;
+            Country = country;
             CustomerId = customerId;
             CourierId = courierId;
             TotalPrice = totalPrice;
-            Status = status;
+            Status = OrderStatus.Created;
         }
         public CargoOrder()
         {

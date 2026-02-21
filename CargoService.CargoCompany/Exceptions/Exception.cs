@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CargoService.CargoCompany.Exceptions
+{
+    public class Exception: System.Exception
+    {
+        public Exception() : base("Error occured.") { }
+        public Exception(string message) : base(message)
+        {
+        }
+
+    }
+}

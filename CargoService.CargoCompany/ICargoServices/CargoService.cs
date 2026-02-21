@@ -4,94 +4,99 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CargoService.CargoCompany.Enums;
+
 
 namespace CargoService.CargoCompany.ICargoServices
 {
     public class CargoService : ICargoInterface
     {
-        private Customer[] _customer = new Customer[100];
-        private Courier[] _courier = new Courier[100];
-        private CargoOrder[] _cargoOrder = new CargoOrder[100];
-        private int _count = 0;
-
-        
-        public void CreateCargoOrder(int customerId, int courierId)
-        {
-            Customer customer = null;
-            Courier courier = null;
-            for (int i = 0; i < _count; i++)
-            {
-                if (_customer[i].Id == customerId)
-                {
-                    customer = _customer[i];
-                }
-            }
-            if (customer == null)
-            {
-                throw new Exception("Bu ID ile musteri tapilmadi");
-            }
-
-            for (int i = 0; i < _count; i++)
-            {
-                if (_courier[i].Id == courierId)
-                {
-                    courier = _courier[i];
-                }
-            }
-            if (courier == null)
-            {
-                throw new Exception("Bu ID ile kuryer tapilmadi.");
-            }
-            if (courier.IsAvalaible == false)
-            {
-                throw new Exception("Bu kuryer mesguldur.");
-            }   
-            CargoOrder cargoOrder = new CargoOrder() 
-            {  
-                    cargoOrder.Id= _count + 1,
-                    cargoOrder.CustomerId = customerId,
-                    cargoOrder.CourierId = courierId,
-                    cargoOrder.Status = Enums.OrderStatus.Created
-            
-            };  
-            courier.IsAvalaible = false;
-            _cargoOrder[_count] = cargoOrder;
-            _count++;
-            Console.WriteLine("sifaris yaradildi");
-        }
-
-
+        private Customer[] _customer = [];
+        private Courier[] _courier = [];
+        private CargoOrder[] _cargoOrder = [];
 
         public void AddCourier(Courier courier)
         {
-            for (int i = 0; i < _count; i++)
+            if (courier == null)
+                throw new Exception("Courier cannot be null.");
+            for (int i = 0; i < _courier.Length; i++)
             {
+                if (_courier[i].Id == courier.Id)
                 {
-                    if (_courier[i].Id == courier.Id)
-                    {
-                        Console.WriteLine("Bu ID ile kuryer artiq var.");
-                        return;
-                    }
+                    throw new Exception("Courier with the same ID already exists.");
                 }
-                _courier[_count] = courier;
-                _count++;
+                
             }
+            Array.Resize(ref _courier, _courier.Length + 1);
+            _courier[^1] = courier;
         }
 
         public void AddCustomer(Customer customer)
         {
-            for (int i = 0; i < _count; i++) 
+            if (customer == null)
+                throw new Exception("Customer cannot be null.");
+            for (int i = 0; i < _customer.Length; i++)
             {
+
                 if (_customer[i].Id == customer.Id)
                 {
-                    Console.WriteLine("Bu ID ile müşteri artiq var.");
-                    return;
+                    throw new Exception("Customer with the same ID already exists.");
                 }
+                Array.Resize(ref _customer, _customer.Length + 1);
+                _customer[^1] = customer;
             }
-            _customer[_count] = customer;
-            _count++;
         }
 
-        
+        public void CreateCargoOrder(CargoOrder order)
+        {
+            int customerID = order.CustomerId;
+            bool customerExsist = false;
+            foreach (var customer in _customer)
+            {
+                if (customer.Id == customerID)
+                {
+                    customerExsist = true;
+                    break;
+                }
+            }
+            if (customerExsist) throw new Exception("Customer not found");
+            int courierID = order.CourierId;
+            bool courierExsist = false;
+            foreach (var courier in _courier)
+            {
+                if (courier.Id == courierID && courier.IsAvalaible == true)
+                {
+                    courierExsist = true;
+                    courier.IsAvalaible = false;
+                    break;
+                }
+            }
+            if (courierExsist) throw new Exception("Courier not found");
+            Array.Resize(ref _cargoOrder, _cargoOrder.Length + 1);
+            _cargoOrder[^1] = order;
+        }
+        public void CompleteCargoOrder(int orderId)
+        {
+            CargoOrder currentOrder = null;
+            foreach (var order in _cargoOrder)
+            {
+                if (order.Id == orderId)
+                {
+                    currentOrder = order;
+                    break;
+                }
+            }
+            if (currentOrder == null) throw new Exception("Order not found");
+            currentOrder.UpdateStatus(OrderStatus.Delivered);
+            int courierID = currentOrder.CourierId;
+            foreach (var courier in _courier)
+            {
+                if (courier.Id == courierID)
+                {
+                    courier.IsAvalaible = true;
+                    break;
+                }
+            }
+        }
     }
 }

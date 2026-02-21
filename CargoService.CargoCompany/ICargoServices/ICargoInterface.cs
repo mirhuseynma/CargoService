@@ -12,6 +12,7 @@ namespace CargoService.CargoCompany.ICargoServices
         // save customer, courier and cargoorder
         public void AddCustomer(Customer customer);
         public void AddCourier(Courier courier);
-        public void CreateCargoOrder(int customerId,int courierId);
+        public void CreateCargoOrder(CargoOrder order);
+        public void CompleteCargoOrder(int orderId);
     }
 }

@@ -1,4 +1,4 @@
-﻿using CargoService.CargoCompany.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +7,24 @@ using System.Threading.Tasks;
 
 namespace CargoService.CargoCompany.Classes
 {
-    public class Courier:Models.Cargos
+    public class Courier
     {
-        private static int _id;
-        public int Id { get; set; }
+        static int ID;
+        public int Id
+        {
+            get;
+            set;
+        }
+        public string Name { get; set; }
+        public string Country { get; set; }
         public bool IsAvalaible { get; set; }
         
-        public Courier(string name, string country,bool isAvalaible) : base(name, country)
+        public Courier(string name, string country,bool isAvalaible)
         {
-            _id++;
-            Id = _id;
+            ID++;
+            Id = ID;
+            Name = name;
+            Country = country;
             IsAvalaible = isAvalaible;
         }
 

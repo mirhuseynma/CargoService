@@ -16,6 +16,9 @@ namespace CargoService.CargoCompany
             Courier courier2 = new Courier("Corc Washington", "UK", true);
             Courier courier3 = new Courier("Adbullah Hermen", "UK", false);
 
+           
+            CargoOrder order = new CargoOrder("Order first","Baku",1,2,360);
+
             Console.WriteLine(customer.Id);
             Console.WriteLine(courier.Id);
 
@@ -34,9 +37,13 @@ namespace CargoService.CargoCompany
 
             ICargoServices.CargoService cargoService3 = new ICargoServices.CargoService();
 
-            cargoService3.CreateCargoOrder(1, 2);
+            cargoService3.CreateCargoOrder(order);
+            
+            
 
 
-        }
+
+
+            }
     }
 }

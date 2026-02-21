@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace CargoService.CargoCompany.Classes
 {
-    public class Customer : Models.Cargos
+
+    public class Customer 
     {
-        public Customer(string name, string country) : base(name, country)
+        static int ID;
+        public int Id { get; }
+        public string Name { get; set; }
+        public string Country { get; set; }
+        public Customer(string name, string country) 
         {
+            ID++;
+            Id = ID;
+            Name = name;
+            Country = country;
         }
 
         public override string ToString()
